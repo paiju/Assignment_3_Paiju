@@ -1,8 +1,7 @@
 //window.onload = startGame();
-document.getElementById("startButton").onclick = startGame();
 
 function startGame() {
-  var board = [
+  var grid = [
     [0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0],
@@ -10,7 +9,7 @@ function startGame() {
     [0, 0, 0, 0, 0]
   ];
 
-  var board_X = [
+  var grid_X = [
     [0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0],
@@ -18,7 +17,7 @@ function startGame() {
     [0, 0, 0, 0, 0]
   ];
 
-  var board_0 = [
+  var grid_0 = [
     [0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0],
